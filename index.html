@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shlomobangers</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .header {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 170px;
+            padding-top: 30px;
+        }
+
+        .header img {
+            height: 50px;
+            width: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section {
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            margin-bottom: 10px; /* Optional spacing between sections */
+        }
+
+        .section a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        .section img {
+            width: 80px;
+            height: 80px;
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="choose_ur_platform.jpg" alt="Platform Icon">
+    </div>
+    <div class="container">
+        <div class="section">
+            <a href="https://www.whatsapp.com/channel/0029VaY2ZKZB4hdZtASPPA3w" target="_blank">
+                <img src="whatsapp.png" alt="WhatsApp Logo" style="filter: hue-rotate(120deg);">
+            </a>
+        </div>
+        <div class="section">
+            <a href="https://www.instagram.com/shlomobangers" target="_blank">
+                <img src="instagram.png" alt="Instagram Logo" style="filter: hue-rotate(320deg);">
+            </a>
+        </div>
+        <div class="section">
+            <a href="https://snapchat.com/t/SkN3LtOW" target="_blank">
+                <img src="snapchat.png" alt="Snapchat Logo" style="filter: hue-rotate(60deg);">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
