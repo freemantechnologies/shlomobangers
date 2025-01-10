@@ -17,12 +17,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 120px;
             padding-top: 30px;
         }
 
         .header img {
-            height: 50px;
             width: auto;
         }
 
@@ -32,7 +30,6 @@
         }
 
         .section {
-            height: 140px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -57,6 +54,35 @@
 
         .section:hover img {
             transform: scale(1.2);
+        }
+
+        /* Default styles for smaller screens (below iPhone 16 Plus size) */
+        .header {
+            height: 120px;
+        }
+
+        .header img {
+            height: 45px;
+        }
+
+        .section {
+            height: 140px;
+        }
+
+        /* Styles for screens iPhone 16 Plus size or larger */
+        @media (min-width: 1290px) {
+            .header {
+                height: 150px;
+                padding-top: 35px;
+            }
+
+            .header img {
+                height: 50px;
+            }
+
+            .section {
+                height: 150px;
+            }
         }
     </style>
 </head>
